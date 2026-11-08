@@ -50,3 +50,15 @@ skills -> plugins/bmk/skills       for the skills CLI
 
 To add a skill, create `plugins/bmk/skills/<name>/SKILL.md` and add it to the
 table above.
+
+## Developing locally
+
+Add the marketplace from your checkout instead of GitHub
+(`/plugin marketplace add ~/code/skill-issues`,
+`codex plugin marketplace add ~/code/skill-issues`). Both tools install a cached
+copy, so after editing a skill:
+
+- Codex: run `codex plugin add bmk@bmk` again. It copies the working tree,
+  uncommitted changes included.
+- Claude Code: commit, then run `claude plugin update bmk@bmk` and restart.
+  It caches by commit, so uncommitted edits aren't picked up.
