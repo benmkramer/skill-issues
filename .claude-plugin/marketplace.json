@@ -1,0 +1,17 @@
+{
+  "name": "bmk",
+  "owner": {
+    "name": "benmkramer",
+    "url": "https://github.com/benmkramer"
+  },
+  "metadata": {
+    "description": "benmkramer's agent skills, starting with new-work-thread: spin up a Rex session plus a worktrunk worktree for each new thread of work."
+  },
+  "plugins": [
+    {
+      "name": "bmk",
+      "description": "benmkramer's agent skills, starting with new-work-thread: spin up a Rex session plus a worktrunk worktree for each new thread of work.",
+      "source": "./plugins/bmk"
+    }
+  ]
+}

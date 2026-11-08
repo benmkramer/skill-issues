@@ -1,0 +1,11 @@
+{
+  "name": "bmk",
+  "description": "benmkramer's agent skills, starting with new-work-thread: spin up a Rex session plus a worktrunk worktree for each new thread of work.",
+  "author": {
+    "name": "benmkramer",
+    "url": "https://github.com/benmkramer"
+  },
+  "repository": "https://github.com/benmkramer/skill-issues",
+  "license": "MIT",
+  "keywords": ["skills", "rex", "worktrunk", "worktree"]
+}

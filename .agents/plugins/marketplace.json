@@ -1,0 +1,19 @@
+{
+  "name": "bmk",
+  "interface": {
+    "displayName": "bmk"
+  },
+  "plugins": [
+    {
+      "name": "bmk",
+      "source": {
+        "source": "local",
+        "path": "./plugins/bmk"
+      },
+      "policy": {
+        "installation": "AVAILABLE"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
