@@ -8,6 +8,7 @@
   "repository": "https://github.com/benmkramer/skill-issues",
   "license": "MIT",
   "keywords": ["skills", "rex", "worktrunk", "worktree"],
+  "skills": "./skills/",
   "interface": {
     "displayName": "bmk",
     "shortDescription": "benmkramer's agent skills.",
