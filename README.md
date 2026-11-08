@@ -1,7 +1,7 @@
 # skill-issues
 
-Agent skills I use with Claude Code and Codex, packaged as a plugin marketplace
-named `bmk`. One repo serves both tools.
+Agent skills I use with Claude Code and Codex, packaged as the `skill-issues` plugin marketplace
+with one plugin, `bmk`. One repo serves both tools.
 
 ## Install
 
@@ -9,14 +9,14 @@ Claude Code:
 
 ```
 /plugin marketplace add benmkramer/skill-issues
-/plugin install bmk@bmk
+/plugin install bmk@skill-issues
 ```
 
 Codex:
 
 ```sh
 codex plugin marketplace add benmkramer/skill-issues
-codex plugin add bmk@bmk
+codex plugin add bmk@skill-issues
 ```
 
 Skills only, with the [`skills`](https://github.com/vercel-labs/skills) CLI:
@@ -25,8 +25,8 @@ Skills only, with the [`skills`](https://github.com/vercel-labs/skills) CLI:
 npx skills add benmkramer/skill-issues -g
 ```
 
-To update, run `/plugin marketplace update bmk` in Claude Code or
-`codex plugin marketplace upgrade bmk` in Codex.
+To update, run `/plugin marketplace update skill-issues` in Claude Code or
+`codex plugin marketplace upgrade skill-issues` in Codex.
 
 ## Skills
 
@@ -58,7 +58,7 @@ Add the marketplace from your checkout instead of GitHub
 `codex plugin marketplace add ~/code/skill-issues`). Both tools install a cached
 copy, so after editing a skill:
 
-- Codex: run `codex plugin add bmk@bmk` again. It copies the working tree,
+- Codex: run `codex plugin add bmk@skill-issues` again. It copies the working tree,
   uncommitted changes included.
-- Claude Code: commit, then run `claude plugin update bmk@bmk` and restart.
+- Claude Code: commit, then run `claude plugin update bmk@skill-issues` and restart.
   It caches by commit, so uncommitted edits aren't picked up.
